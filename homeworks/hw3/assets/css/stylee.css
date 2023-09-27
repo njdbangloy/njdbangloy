@@ -1,5 +1,5 @@
 /* PROBLEM 1: Remove white margin of body, html */
-html, body {
+body, html {
     margin: 0;
 }
 
@@ -19,11 +19,12 @@ top and bottom, 30 for the left and right*/
 .item {
     width: 120px;
     height: 120px;
+    display: inline-block;
 }
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
 .item {
-    margin-right: 10px;
+    margin: 5px;
 }
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
