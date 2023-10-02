@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    position: fixed;
+
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+#image-banner {
+    background-image: url('../img/sf_banner.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+#other-posts {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 380px;
+    height: 200px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    position: relative;
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: navy;
+}
+
+.image-card:hover .image-card-color-overlay {
+    opacity: 0.7;
+}
+
+.image-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+
+/* PROBLEM 7: Improve the typography and colors of this page! */
+
+#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #240b0b
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color:#2c2626;
+}
+
+h2 {
+    font-family: Inconsolata;
+    font-size: 19px;
+    font-weight: 550;
+    color: black;
+}
+
+h3 {
+    font-family: Tangerine;
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(20, 18, 18);
+}
+
+.image-card-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
