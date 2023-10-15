@@ -1,0 +1,266 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    background-color: #ffffff;
+    height: 100px;
+}
+
+#logo {
+    margin-top: 20;
+    height: 40px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+section {
+    padding: 25px;
+    border: 1px solid #cccccc;
+    margin-bottom: 25px;
+}
+
+section img {
+    width: 500px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+.yellow-bar {
+    background-color: rgb(255, 228, 94);
+    height: 365px;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.bar-text {
+    position: absolute;
+    color: black; 
+    font-size: 48px; 
+    left: 40%; 
+    top: 80px;
+}
+
+.bar-text-small {
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    left: 40%; 
+    top: 239px;
+}
+
+.circle-image {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 100px; 
+    height: 675px; 
+}
+
+.order-button {
+    position: absolute;
+    top: 50%;
+    left: 44.3%;
+    transform: translate(-50%, -50%);
+    background-color: #ee9e00;
+    color: rgb(0, 0, 0); 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #b36e00; 
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5; 
+}
+
+.about-text {
+    padding: 200px;
+    margin-top: -150px;
+}
+
+.about-image {
+    text-align: center;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+
+.about-image img {
+    width: 500px;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.menu-subsection {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.menu-item {
+    width: calc(33.33% - 20px); /
+    margin: 0 10px 20px 0;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: 24px; 
+}
+
+.view-menu-button {
+    display: block;
+    margin: 20px auto; 
+    background-color: #007BFF; 
+    color: white; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-menu-button:hover {
+    background-color: #0056b3; 
+}
+
+.footer-section {
+    background-color: rgb(255, 228, 94); 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.footer-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item li {
+    margin: 5px 0;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: right;
+}
+
+.menu-items-horizontal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: calc(25% - 20px); 
+    margin: 0 5px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.menu-item h3 {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #007BFF; 
+}
