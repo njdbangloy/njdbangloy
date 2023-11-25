@@ -1,6 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <body>
-        FINAL
-    </body>
+   <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre Franklin">
+        <script src="assets/js/script.js"></script>
+   </head>
+   <body>
+        <a id="up"></a>
+
+        <div id="home">
+            <div class="home-item">
+                <a href="#up"><img src="assets/img/homie.png" 
+                width="45" 
+                height="45"/>
+                </a>
+            </div>
+        </div>
+
+        <div id="dark-mode-button" onclick="toggleDarkMode()">Dark Mode</div>
+
+        <div id="info">
+            <div id="title"><h1>DINOSAURS!</h1></div>
+        </div>
+
+        <div id="dinos">
+            <div id="dino-standings">
+                <div class="dino-item" onclick="playAudio('audio1')">
+                    <a href="#part1"><img src="assets/img/dino1.png" 
+                    width="415" 
+                    height="415" /></a>
+                </div>
+                <div class="dino-item" onclick="playAudio('audio1')">
+                    <a href="#part2"><img src="assets/img/dino2.png" 
+                        width="415" 
+                        height="415" /></a>
+                </div>
+                <div class="dino-item" onclick="playAudio('audio1')">
+                    <a href="#part3"><img src="assets/img/dino3.png" 
+                        width="415" 
+                        height="415" /></a>
+                </div>
+            </div>
+        </div>
+
+        <audio id="audio1">
+            <source src="dinoaudi.m4a" type="audio/mpeg">
+        </audio>
+
+        <div id="dinosaur-info">
+            <div id="dinosaur-text">
+                <p>Dinosaurs are a diverse group of reptiles of the clade Dinosauria. 
+                    They first appeared during the Triassic period, between 243 and 
+                    233.23 million years ago, although the exact origin and timing of 
+                    the evolution of dinosaurs is a subject of active research.</p>
+            </div>
+        </div>
+
+         <div id="sections">
+            <div class="dinosection">
+                    <div id="dinoo1">
+                        <div class="dino1-item">
+                            <img src="assets/img/dino1.png"
+                            width="350" 
+                            height="350"/>
+                        </div> 
+                        <div id="info">
+                            <div id="dino-name"><h1>Tyrannosaurus-Rex</h1></div>
+                        <div id="dino-description">Tyrannosaurus is a genus of large theropod dinosaur. The species Tyrannosaurus rex, often called T. rex or colloquially T-Rex, is one of the best represented theropods. It lived throughout what is now western North America, on what was then an island continent known as Laramidia. </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="dinosection">
+                     <div id="dinoo2">
+                        <div class="dino2-item">
+                            <img src="assets/img/dino2.png"
+                            width="350" 
+                            height="350"/>
+                        </div> 
+                        <div id="info">
+                            <div id="dino-name"><h1>Velociraptor</h1></div>
+                            <div id="dino-description">Velociraptor is a genus of small dromaeosaurid dinosaurs that lived in Asia during the Late Cretaceous epoch, about 75 million to 71 million years ago. Two species are currently recognized, although others have been assigned in the past. The type species is V. mongoliensis, named and described in 1924. </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="dinosection">
+                <div id="dinoo3">
+                    <div class="dino3-item">
+                        <img src="assets/img/dino3.png"
+                            width="350" 
+                            height="350"/>
+                    </div> 
+                    <div id="info">
+                            <div id="dino-name"><h1>Stegosaurus</h1></div>
+                    <div id="dino-description">Stegosaurus is a genus of herbivorous, four-legged, armored dinosaur from the Late Jurassic, characterized by the distinctive kite-shaped upright plates along their backs and spikes on their tails. </div>
+                    </div>
+                </div>
+            </div> 
+   </body>
 </html>
